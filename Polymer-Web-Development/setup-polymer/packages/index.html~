@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--Load Platform support before any code that touches the DOM-->
+		<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+
+		<!-- Loading the Custome Element -->
+		<link rel="import" href="elements/custom-element.html">
+		
+	</head>
+	<body>
+
+		Usage of Custom Elements:
+		<!-- Using the Custom Element -->
+		<hello-world>Hi</hello-world>
+
+	</body>
+</html>
