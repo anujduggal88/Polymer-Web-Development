@@ -1,0 +1,288 @@
+/* Font init*/
+@font-face {
+   font-family: 'SegoeL';
+   src: local('☺'), url('../fonts/SEGOEUIL.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+
+
+}
+
+
+
+#toolbar {
+
+    background: #1d7e8b;
+    height: 200px;
+    
+
+}
+
+#toolbar p {
+
+    color: white;
+    font-family: SegoeL;
+    font-size: 40px;
+    margin-left: 100px;
+
+
+}
+
+#toolbar-mw {
+
+    background: #0895c9;
+    height: 200px;
+    
+
+}
+
+#toolbar-mw p {
+
+    color: white;
+    font-family: SegoeL;
+    font-size: 40px;
+    margin-left: 100px;
+
+
+}
+
+#toolbar-vid {
+
+    background: #752BFF;
+    height: 200px;
+    
+
+}
+
+#toolbar-vid p {
+
+    color: white;
+    font-family: SegoeL;
+    font-size: 40px;
+    margin-left: 100px;
+
+
+}
+
+#frost {
+
+    margin-left: 100px;
+
+}
+
+#frost > a {
+
+    color: #0895c9;
+    text-decoration: none;
+    font-family: SegoeL;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+#frost a.hover {
+
+    color: #555;
+
+}
+
+#frost-pl {
+
+    margin-left: 100px;
+
+}
+
+#frost-pl > a {
+
+    color: #752BFF;
+    text-decoration: none;
+    font-family: SegoeL;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.face {
+
+    width: 48px;
+    
+
+}
+
+#contact {
+
+    background: #1d7e8b;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#contact-mw {
+
+    background: #0895c9;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#contact-vid {
+
+    background: #752BFF;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#nav-icon {
+    
+    background: #ffffff;
+    position: absolute;
+    top: 170px;
+    z-index: 3;
+    left: 50px;
+}
+
+#nav {
+
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 240px;
+    left: 25px;
+
+}
+
+#nav-mw {
+
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 240px;
+    left: 25px;
+
+}
+
+#nav-vid {
+
+    width: 220px;
+    height: 270px;
+    position: absolute;
+    top: 240px;
+    left: 25px;
+
+}
+
+#nav > a {
+
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #1d7e8b;
+    display: flex;
+}
+
+#nav-mw > a {
+
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #0895c9;
+    display: flex;
+}
+
+#nav-vid > a {
+
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #752BFF;
+    display: flex;
+}
+
+#cme {
+
+    width: 650px;
+    height: 300px;
+    margin-left: -100px;
+
+}
+
+
+#cme-input {
+
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: SegoeL;
+    font-weight: bold;
+
+}
+
+
+#send-mail {
+
+    float: right;
+    background-color: #1d7e8b;
+    color: white;
+    font-family: SegoeL;
+}
+
+#footer {
+
+    background: #3b3b3b;
+
+}
+
+#footer > span {
+
+    color: white;
+    font-family: SegoeL;
+    font-size: 15px;
+
+}
+
+.first-cards {
+
+    background: #ffffff;
+    position: absolute;
+    left: 180px;
+     width : 945px;
+    top: 140px;
+    z-index: 2;
+
+}
+
+.cards {
+
+    background: #ffffff;
+    margin-left: 188px;
+     width : 70%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+#bodies {
+
+    background-color: #ececec;
+    position: relative;
+    margin-top: 140px;
+    
+
+}
+
+#pl {
+
+    color: black;
+    font-family: SegoeL;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    
+
+}

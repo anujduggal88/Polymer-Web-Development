@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/angular/angular-csp.css" type="text/css">
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/hammerjs/hammer.js"></script>
+    <script src="bower_components/hammerjs/hammer.min.js"></script>
+    <title>Ashish Shekar | Inventions</title>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="bower_components/platform/platform.js"></script>
+    <link rel="import" href="bower_components/paper-elements/paper-elements.html">
+    <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="bower_components/core-icons/core-icons.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/core-media-query/core-media-query.html">
+    <link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+    <link rel="import" href="bower_components/core-transition/core-transition.html">
+    <link rel="icon" type="image/jpg" href="images/3619949.jpg">
+    
+<head>
+<body style="background-color: #ececec;">
+    <!--foundation JS -->
+      <script src="js/jquery-2.1.1.min.js"></script>
+    </md-sidenav>
+    <md-toolbar id="toolbar-mw">
+    <p>Inventions !</p>
+    </md-toolbar>
+    
+     <paper-fab src="images/down-arrow.png" id="nav-icon" onclick="document.querySelector('#nav-mw').toggle();"></paper-fab>
+    <md-card class="first-cards">
+                   <img src="images/myworks.png" width="930px"/>
+                  <h4>Welcome to My Blog !!</h4>
+              <p>My Blog is transforming into a new Material look. After the release Android Lollipop I always wanted to create something using this awesome design.</p>
+              </md-card>
+    <div id="bodies">
+              
+              <md-card class="cards">
+                   <img src="images/google_plus.png" />
+                  <h4>Get in touch!</h4>
+              <p>We'd love to hear from you about our games. Suggestions are welcome.</p>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/galaxy-grand-duos/development/kernel-frost-beta-1-7-t2927449"><h4>Frost Kernel</h4></a>
+                <p>My fist kernel which actually BOOTED :O</p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/showthread.php?t=2760138"><h4>Fonts for CyanogenMod Users</h4></a>
+                <p>It was my first time building apks and which WORKED lol ! It was fun ..</p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/showthread.php?t=2760138"><h4>Holox Deodexer</h4></a>
+                <p>At first when I was stuck on how to deodex ..I end up making a tool after I came to know HOW</p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/showthread.php?t=2218221"><h4>HoloXperia MDPI Tool</h4></a>
+                <p>Making Tools really was fun, batch script was a new language for me so I was consistent on making tools ..This is when I had Xperia Live With Walkman </p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/showthread.php?t=2218221"><h4>Grand Tool</h4></a>
+                <p>Another Tool :/ ..This is when I had and still have Galaxy Grand Duos </p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost">
+                  <a href="http://forum.xda-developers.com/showthread.php?t=2377952"><h4>Flashable Zip Builder</h4></a>
+                <p>I really miss updating this tool ..It was great but soon a GUI based tool came up so this was forgotten ...and this was legacy for millions of years !!!! </p>
+                </div>
+              </md-card>
+        
+        <paper-fab src="images/perm_group_personal_info.png" id="contact-mw" onclick="document.querySelector('#cme').toggle();"></paper-fab>
+        
+    </div>
+    <paper-dialog heading="Contact Me" transition="paper-dialog-transition-bottom" id="cme">
+  
+    <paper-input label="Email" id="cme-input"></paper-input>
+        <paper-button raised id="send-mail" onclick="sendEmail();">SEND</paper-button>
+
+    </paper-dialog>
+    <paper-dialog heading="Navigaiton" transition="core-transition-left" id="nav-mw">
+
+        <a href="index.html">Home</a>
+       
+        <a href="#">Inventions</a>
+        
+        <a href="videos.html">Videos</a>
+    </paper-dialog>
+    
+    <core-toolbar id="footer">
+    
+        <span>© Copyright 2014 Ashish Shekar</span>
+    </core-toolbar>
+</body>
+</html>

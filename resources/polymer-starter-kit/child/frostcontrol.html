@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--Custom css-->
+    <link rel="stylesheet" href="../css/frost.css" type="text/css">
+    <script src="../bower_components/angular-material/angular-material.js"></script>
+    <script src="../bower_components/angular-material/angular-material.min.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" type="text/css">
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.min.css" type="text/css">
+    <link rel="stylesheet" href="../bower_components/angular/angular-csp.css" type="text/css">
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="../bower_components/hammerjs/hammer.js"></script>
+    <script src="../bower_components/hammerjs/hammer.min.js"></script>
+    <title>Ashish Shekar | Frost Kernel</title>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="../bower_components/platform/platform.js"></script>
+    <link rel="import" href="../bower_components/paper-elements/paper-elements.html">
+    <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="../bower_components/core-icons/core-icons.html">
+    <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="../bower_components/core-media-query/core-media-query.html">
+    <link rel="import" href="../bower_components/paper-dialog/paper-dialog-transition.html">
+    <link rel="import" href="../bower_components/core-transition/core-transition.html">
+    
+    <link rel="icon" type="image/jpg" href="../images/3619949.jpg">
+<head>
+<body style="background-color: #ececec;">
+    <!--foundation JS -->
+      <script src="js/jquery-2.1.1.min.js"></script>
+    </md-sidenav>
+    <md-toolbar id="toolbar">
+    <p>Frost Kernel</p>
+    </md-toolbar>
+    
+    <md-card class="first-cards">
+                   <img src="../images/page.png" width="930px"/>
+                  <h4>Frost Control</h4>
+              <p>Frost control is a well-designed kernel tweaker/control tool.
+                  
+                  <h4>Status :</h4>
+                  <h4>Alpha</h4>
+        <p>Frost kernel is still under development</p>
+</p>
+              </md-card>
+    <div id="bodies">
+              
+              <md-card class="cards">
+                   <img src="../images/google_plus.png" />
+                  <h4>Get in touch!</h4>
+              <p>We'd love to hear from you about our games. Suggestions are welcome.</p>
+              </md-card>
+        
+        <md-card class="cards">
+                  <h4>Alpha News</h4><br>
+            <h2>v0.4a</h2>
+            <p>-Design complete<br>
+                -WIP for CPU control !</p>
+              </md-card>
+        
+        <paper-fab src="../images/perm_group_personal_info.png" id="contact" onclick="document.querySelector('#cme').toggle();"></paper-fab>
+        
+    </div>
+    <paper-dialog heading="Contact Me" transition="paper-dialog-transition-bottom" id="cme">
+  
+    <paper-input label="Email" id="cme-input" class="custom"></paper-input>
+    <paper-input label="Topic" id="cme-input" class="custom"></paper-input>
+    <paper-input label="Message" id="cme-input" class="custom" ></paper-input>
+        
+        <paper-button raised id="send-mail" onclick="sendEmail();">SEND</paper-button>
+
+    </paper-dialog>
+    
+    <core-toolbar class="footer">
+    
+        <span>© Copyright 2014 Ashish Shekar</span>
+    </core-toolbar>
+</body>
+</html>

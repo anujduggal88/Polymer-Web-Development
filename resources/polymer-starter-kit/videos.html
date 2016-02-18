@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css" type="text/css">
+    <link rel="stylesheet" href="bower_components/angular/angular-csp.css" type="text/css">
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/hammerjs/hammer.js"></script>
+    <script src="bower_components/hammerjs/hammer.min.js"></script>
+    <title>Ashish Shekar | Videos</title>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="bower_components/platform/platform.js"></script>
+    <link rel="import" href="bower_components/paper-elements/paper-elements.html">
+    <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="bower_components/core-icons/core-icons.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/core-media-query/core-media-query.html">
+    <link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+    <link rel="import" href="bower_components/core-transition/core-transition.html">
+    <link rel="icon" type="image/jpg" href="images/3619949.jpg">
+    
+<head>
+<body style="background-color: #ececec;">
+    <!--foundation JS -->
+      <script src="js/jquery-2.1.1.min.js"></script>
+    </md-sidenav>
+    <md-toolbar id="toolbar-vid">
+    <p>Videos</p>
+    </md-toolbar>
+    
+     <paper-fab src="images/down-arrow.png" id="nav-icon" onclick="document.querySelector('#nav-vid').toggle();"></paper-fab>
+    <md-card class="first-cards">
+                   <img src="images/vids.png" width="930px"/>
+                  <h4>Video Blog</h4>
+              <p>I like to make video tutorials ..I don't know why :P</p>
+              </md-card>
+    <div id="bodies">
+              
+              <md-card class="cards">
+                   <img src="images/google_plus.png" />
+                  <h4>Get in touch!</h4>
+              <p>We'd love to hear from you about our games. Suggestions are welcome.</p>
+              </md-card>
+        <br>
+        
+        <p id="pl">Playlists</p>
+        
+        <md-card class="cards">
+            <div id="frost-pl">
+                  <a href="https://www.youtube.com/playlist?list=PL2TRdIQXocYCHnY1MJYMnIufBWY6rlGNG"><h4>Material Design with Polymer</h4></a>
+                <p>Make websites with material design ... Like this one ! </p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost-pl">
+                  <a href="https://www.youtube.com/watch?v=zD6SlHHSHNg&index=1&list=PL2TRdIQXocYCzyGejq3RntxGuCHto1WQ6"><h4>How To Build Font Packs for CyanogenMod Theme Chooser</h4></a>
+                <p>Create your favourite fonts using this guide..</p>
+                </div>
+              </md-card>
+        
+        <md-card class="cards">
+            <div id="frost-pl">
+                  <a href="https://www.youtube.com/watch?v=zD6SlHHSHNg&index=1&list=PL2TRdIQXocYCzyGejq3RntxGuCHto1WQ6"><h4>Batch Scripting</h4></a>
+                <p>I have mad a lot of tools using Batch Script ...Here is a playlist to make your own</p>
+                </div>
+              </md-card>
+        
+        <paper-fab src="images/perm_group_personal_info.png" id="contact-vid" onclick="document.querySelector('#cme').toggle();"></paper-fab>
+        
+    </div>
+    <paper-dialog heading="Contact Me" transition="paper-dialog-transition-bottom" id="cme">
+  
+    <paper-input label="Email" id="cme-input"></paper-input>
+        <paper-button raised id="send-mail" onclick="sendEmail();">SEND</paper-button>
+
+    </paper-dialog>
+    <paper-dialog heading="Navigaiton" transition="core-transition-left" id="nav-vid">
+
+        <a href="index.html">Home</a>
+       
+        <a href="myworks.html">Inventions</a>
+        
+        <a href="videos.html">Videos</a>
+    </paper-dialog>
+    
+    <core-toolbar id="footer">
+    
+        <span>© Copyright 2014 Ashish Shekar</span>
+    </core-toolbar>
+</body>
+</html>

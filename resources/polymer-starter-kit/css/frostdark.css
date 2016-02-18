@@ -1,0 +1,224 @@
+/* Font init*/
+@font-face {
+   font-family: 'SegoeL';
+   src: local('☺'), url('../fonts/SEGOEUIL.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+
+
+}
+
+
+
+#toolbar {
+
+    background: rgb(72, 196, 226);
+    height: 200px;
+    
+
+}
+
+#toolbar p {
+
+    color: #3b3b3b;
+    font-family: SegoeL;
+    font-size: 40px;
+    margin-left: 100px;
+
+
+}
+
+#frost-pl {
+
+    margin-left: 100px;
+
+}
+
+#frost-pl > a {
+
+    color: #752BFF;
+    text-decoration: none;
+    font-family: SegoeL;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.face {
+
+    width: 48px;
+    
+
+}
+
+#contact {
+
+    background: rgb(72, 196, 226);
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#contact-vid {
+
+    background: #752BFF;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 3;
+
+}
+
+#cme {
+
+    width: 650px;
+    height: 400px;
+    margin-left: -100px;
+
+}
+
+
+#cme-input {
+
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: SegoeL;
+    font-weight: bold;
+
+}
+
+
+#send-mail {
+
+    float: right;
+    background-color: #48c4e2;
+    color: white;
+    font-family: SegoeL;
+}
+
+.footer {
+
+    background: #3b3b3b;
+
+}
+
+.footer > span {
+
+    color: white;
+    font-family: SegoeL;
+    font-size: 15px;
+
+}
+
+.first-cards {
+
+    background: #464646;
+    position: absolute;
+    left: 180px;
+     width : 945px;
+    top: 140px;
+    z-index: 2;
+
+}
+
+.first-cards > p {
+
+    font-family: SegoeL;
+    font-weight: 500;
+    color: white;
+
+}
+
+.first-cards > h4 {
+
+    font-family: SegoeL;
+    font-weight: bold;
+    color: white;
+
+}
+
+.cards {
+
+    background: #464646;
+    margin-left: 188px;
+     width : 70%;
+    margin-top: 250px;
+    margin-bottom: 30px;
+
+}
+
+.cards > h4 {
+
+    font-family: SegoeL;
+    color: white;
+
+}
+
+.cards > h2 {
+
+    font-family: SegoeL;
+    color: white;
+
+}
+
+
+#download {
+
+    background: #48c4e2;
+    color: white;
+    font-family: SegoeL;
+    float: right;
+
+}
+
+#archive {
+
+    background: #e24848;
+    color: white;
+    font-family: SegoeL;
+
+}
+
+#git {
+
+    background: #49af1c;
+    color: white;
+    font-family: SegoeL;
+
+}
+
+#ltheme {
+
+    background: #3b3b3b;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+
+}
+
+#bodies {
+
+    background-color: #3b3b3b;
+    position: relative;
+    margin-top: 140px;
+    
+
+}
+
+#pl {
+
+    color: black;
+    font-family: SegoeL;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    
+
+}
+
+.custom /deep/ .focused-underline {
+      background-color: #48c4e2;
+    }

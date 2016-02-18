@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--Custom css-->
+    <link rel="stylesheet" href="../css/frostdark.css" type="text/css">
+    <script src="../bower_components/angular-material/angular-material.js"></script>
+    <script src="../bower_components/angular-material/angular-material.min.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" type="text/css">
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.min.css" type="text/css">
+    <link rel="stylesheet" href="../bower_components/angular/angular-csp.css" type="text/css">
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="../bower_components/hammerjs/hammer.js"></script>
+    <script src="../bower_components/hammerjs/hammer.min.js"></script>
+    <title>Ashish Shekar | Frost Kernel</title>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="../bower_components/platform/platform.js"></script>
+    <link rel="import" href="../bower_components/paper-elements/paper-elements.html">
+    <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="../bower_components/core-icons/core-icons.html">
+    <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="../bower_components/core-media-query/core-media-query.html">
+    <link rel="import" href="../bower_components/paper-dialog/paper-dialog-transition.html">
+    <link rel="import" href="../bower_components/core-transition/core-transition.html">
+    
+    <link rel="icon" type="image/jpg" href="../images/3619949.jpg">
+<head>
+<body style="background-color: #3b3b3b;">
+    <!--foundation JS -->
+      <script src="js/jquery-2.1.1.min.js"></script>
+    </md-sidenav>
+    <a href="frostkernel.html"><paper-fab src="../images/lighttheme.png" id="ltheme"></paper-fab></a>
+    <md-toolbar id="toolbar">
+    <p>Frost Kernel</p>
+    </md-toolbar>
+    
+    
+    
+    <md-card class="first-cards">
+                   <img src="../images/frostdark.png" width="930px"/>
+                  <h4>Frost Kernel</h4>
+              <p>Hello all, before I get into kernel features I would like to say that I am new to kernel development no knowledge at all ..just a weebie passing by to know some stuff.
+                  
+                  <h4>Updates :</h4><br>
+                  
+                  <h4>November 29 2014</h4>
+        <p>Update Stock with Barebone version(with only OC upto 1.6). Ensures that before I update the kernel with more features , Basic Functionalities like call,bluetooth, wifi are working properly. After someone confirms the main release will be followed the next day.</p>
+                  
+                  
+                  <h4>November 24 2014</h4>
+        <p>Use Aero Control instead of Performance Control</p>
+</p>
+    <a href="https://s.basketbuild.com/uploads/devs/codekidX/FROST/STOCK/frost-20141129-barebone-stock-1.98t.zip" target="_blank"><paper-button raised id="download">Barebone</paper-button></a>
+    <a href="https://s.basketbuild.com/uploads/devs/codekidX/FROST/AOSP/frost-20141114-codekidX-I9082-1.81.zip" target="_blank"><paper-button raised id="download">Kitkat</paper-button></a>
+    <a href="https://s.basketbuild.com/uploads/devs/codekidX/FROST/LOLLIPOP/frost-20141129-codekidX-I9082-lollipop-2.01.zip" target="_blank"><paper-button raised id="download">Lollipop</paper-button></a>
+              </md-card>
+    <div id="bodies">
+              
+              <md-card class="cards">
+                   <img src="../images/google_plus.png" />
+                  <h4>Get in touch!</h4>
+              <p>We'd love to hear from you about our games. Suggestions are welcome.</p>
+              </md-card>
+        
+        <md-card class="cards">
+                  <h4>Other Links</h4>
+            <a href="https://s.basketbuild.com/devs/codekidX/FROST/" target="_blank"><paper-button raised id="archive">FROST FOLDER</paper-button></a>
+            <a href="https://github.com/codekidX/android_kernel_frost_i9082" target="_blank"><paper-button raised id="git">SOURCE</paper-button></a>
+              </md-card>
+    
+    <core-toolbar class="footer">
+    
+        <span>© Copyright 2014 Ashish Shekar</span>
+    </core-toolbar>
+        
+                <paper-fab src="../images/perm_group_personal_info.png" id="contact" onclick="document.querySelector('#cme').toggle();"></paper-fab>
+        
+    </div>
+    <paper-dialog heading="Contact Me" transition="paper-dialog-transition-bottom" id="cme">
+  
+    <paper-input label="Email" id="cme-input" class="custom"></paper-input>
+    <paper-input label="Topic" id="cme-input" class="custom"></paper-input>
+    <paper-input label="Message" id="cme-input" class="custom" ></paper-input>
+        
+        <paper-button raised id="send-mail" onclick="sendEmail();">SEND</paper-button>
+
+    </paper-dialog>
+</body>
+</html>
